@@ -1,0 +1,38 @@
+name: JoinLeaveMessage
+version: '${project.version}'
+main: com.google.core.Core
+api-version: '1.20'
+commands:
+  die:
+    description: Use /die to kill your self
+    permission: deop
+  feed:
+    description: Use /feed for feeding your self
+    permission: deop
+  fly:
+    description: Use /fly to Fly
+    permission: deop
+  gmc:
+    description: de to CreatChange Gamemoive
+    permission: op
+    permission-message: You can't change gamemode without op
+  gms:
+    description: Change Gamemode to Survival
+    permission: op
+    permission-message: You can't change gamemode without op
+  gmsp:
+    description: Change Gamemode to Spectetor
+    permission: op
+    permission-message: You can't change gamemode without op
+  gma:
+    description: Change Gamemode to Adventure
+    permission: op
+    permission-message: You can't change gamemode without op
+  godmode:
+    description: Become un demageable
+    permission: op
+    permission-message: You can't use this without op
+  vanish:
+    description: Become Invisible
+    permission: op
+    permission-message: You can't use that without op
